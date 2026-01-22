@@ -12,12 +12,20 @@ Designed for Aerotech gantry systems running Automation1 and wired for Position 
 
 PCB has built-in pogo pin connections to support various breakout/daughterboard options.
 
+[Github page to H-Bridge breakout board.](https://github.com/0goki/-HVDLS-HBridge)
+
+## Bill of Materials
+
+Interactive BOM
+
+[Digikey BOM](http://www.digikey.com/short/v1b47t42)
+
 ## Revisions
 
 | Mainboard | Notes |
 | ------------- | ------------- |
-| MB01202026  | First physical production run. KICAD Nightly 9.99|
+| MB01202026  | First physical production run. KICAD Nightly 9.99 |
 
 | Breakout | Notes |
 | ------------- | ------------- |
-| BO01162026  | First physical production run. KICAD Nightly 9.99|
+| BO01162026 | First physical production run. KICAD Nightly 9.99 |
