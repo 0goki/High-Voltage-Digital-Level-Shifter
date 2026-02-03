@@ -1,18 +1,26 @@
 # High Voltage Digital Level Shifter
 
-<img width="1200" height="836" alt="sm_black_top" src="https://github.com/user-attachments/assets/35cbbdf6-8c85-434f-909e-3500baba582c" />
+![IMG_5034](https://github.com/user-attachments/assets/6bfabe3d-b57f-4cef-a40a-acb8066a557a)
 
-An ESP32-based microcontroller with an opto-isolated level shifter designed to take up to 3 separate 5V TTL signals and output up to 12 channels of digital signals at 5-24V without signal inversion. The 12-channel output is also configured with flyback diodes and an isolated ground to serve as a solenoid driver with support for 12 separate solenoids with a total power draw of 24V at 5A.
+An ESP32-based microcontroller with an opto-isolated level shifter designed to take up to 3 separate 5V TTL signals and output up to 12 channels of digital signals at 5-24V without signal inversion. The 12-channel output is also configured with flyback diodes and an isolated ground, serving as a solenoid driver supporting 12 solenoids with a total power draw of 24V at 5A.
 
 Designed for Aerotech gantry systems running Automation1 and wired for Position Synchronized Output (PSO).
+
+<img width="1200" height="836" alt="sm_black_top" src="https://github.com/user-attachments/assets/35cbbdf6-8c85-434f-909e-3500baba582c" />
 
 ## Breakout/Daughterboards
 
 <img width="1200" height="237" alt="sm_white_top" src="https://github.com/user-attachments/assets/46c673bb-b144-46be-9756-3017a54b88fc" />
 
-PCB has built-in pogo pin connections to support various breakout/daughterboard options.
+The PCB includes built-in pogo pin connectors to support various breakout/daughterboard options.
 
 [Github page to H-Bridge breakout board.](https://github.com/0goki/-HVDLS-HBridge)
+
+## PCB Specs
+
+- 2 layers
+- 1.6mm thickness
+- ENIG finish
 
 ## Bill of Materials
 
@@ -24,8 +32,8 @@ PCB has built-in pogo pin connections to support various breakout/daughterboard 
 
 | Mainboard | Notes |
 | ------------- | ------------- |
-| MB01202026  | First physical production run. KICAD Nightly 9.99 |
+| MB01202026  | First physical production run with JLCPCB. KICAD Nightly 9.99 |
 
 | Breakout | Notes |
 | ------------- | ------------- |
-| BO01162026 | First physical production run. KICAD Nightly 9.99 |
+| BO01162026 | First physical production run with JLCPCB. KICAD Nightly 9.99 |
